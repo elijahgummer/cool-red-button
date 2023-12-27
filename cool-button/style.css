@@ -1,0 +1,25 @@
+body {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+}
+
+.btn {
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    transition: background 0.5s;
+}
+
+.btn:hover {
+    background: #ff004f;
+}
+  
